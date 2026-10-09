@@ -1,0 +1,23 @@
+# Sensitive audio, consent, private Gold, model weights and runtime artifacts
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+target/
+models/
+checkpoints/
+data/raw/
+data/private/
+data/holdout/
+data/consents/
+runs/
+artifacts/
+*.wav
+*.flac
+*.mp3
+*.opus
+*.safetensors
+*.pt
+*.pth
